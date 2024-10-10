@@ -88,16 +88,16 @@ const createItem = (letter, text = '', isChecked = false) => {
     // Função para adicionar 20 imagens aleatórias
     const addRandomImages = () => {
         const imageUrls = [
-            'imagens/leo.jpg',
-            'imagens/tata.jpg',
-            'imagens/capacete.jpg',
-            'imagens/bebida.jpg',
-            'imagens/cabelo.jpg',
-            'imagens/estilo.jpg',
-            'imagens/moto.jpg',
-            'imagens/tataedog.jpg',
-            'imagens/thumb.jpg',
-            'imagens/us.jpg',
+            'leo.jpg',
+            'tata.jpg',
+            'capacete.jpg',
+            'bebida.jpg',
+            'cabelo.jpg',
+            'estilo.jpg',
+            'moto.jpg',
+            'tataedog.jpg',
+            'thumb.jpg',
+            'us.jpg',
         ];
 
         for (let i = 0; i < 20; i++) {
