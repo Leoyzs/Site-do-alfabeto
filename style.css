@@ -240,14 +240,14 @@ opacity: 0;
     flex: 1;
     padding: 0px;
     border: 2px solid #000;
-    border-radius: 5px;
+    border-radius: 2px;
     font-size: 20px;
     margin-left: 5%;
     transition: border-color 0.3s;
     border: none;
     outline: none;
     border-radius: 15px;
-  
+    width: 20px;
     background-color: #e7e7e7;
     box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
     transition: 300ms ease-in-out;
