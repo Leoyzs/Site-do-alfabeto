@@ -22,7 +22,8 @@ body {
     width: 30%; /* Ajusta a largura da imagem para 30% do container */
     height: auto; /* Mantém a proporção da imagem */
     margin-bottom: 20px; /* Espaço entre a imagem e o container */
-    opacity: 0.8;
+    opacity: 1;
+    border-radius: 5px;
 }
 
 .container {
@@ -206,6 +207,7 @@ input[type="text"].completed {
     height: 200px;
     object-fit: cover;
     opacity: 0.9;
+    border-radius: 5px;
 }
 
 .clearBtn{
