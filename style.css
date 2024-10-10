@@ -213,3 +213,45 @@ input[type="text"].completed {
 .clearBtn{
 opacity: 0;
 }
+
+@media (max-width: 768px) {
+  .container {
+    height: 60%;
+    width: 95%;
+  }
+
+  .header-image {
+      width: 200px;
+      height: auto;
+      margin-top: 10%;
+
+  }
+  #random-images img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    opacity: 0.9;
+    border-radius: 5px;
+
+  }
+
+  input[type="text"] {
+    flex: 1;
+    padding: 0px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 5%;
+    transition: border-color 0.3s;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+  
+    background-color: #e7e7e7;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+    font-weight: bold; /* Adicionado para deixar o texto em negrito */
+}
+
+}
