@@ -12,7 +12,7 @@ body {
     align-items: center; /* Centraliza o conteúdo horizontalmente */
     height: 100vh;
     margin: 0; /* Remove margens padrão do body */
-    background-image: url('Imagens/background.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('background.jpg'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Cobre todo o espaço disponível */
     background-position: center; /* Centraliza a imagem no background */
     background-repeat: no-repeat; /* Evita repetição da imagem */
